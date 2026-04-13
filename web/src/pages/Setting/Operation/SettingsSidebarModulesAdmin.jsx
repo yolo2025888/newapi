@@ -197,6 +197,7 @@ export default function SettingsSidebarModulesAdmin(props) {
             user: true,
             subscription: true,
             setting: true,
+            adminGuide: true,
           },
         };
         setSidebarModulesAdmin(defaultModules);
@@ -275,6 +276,11 @@ export default function SettingsSidebarModulesAdmin(props) {
           key: 'setting',
           title: t('系统设置'),
           description: t('系统参数配置'),
+        },
+        {
+          key: 'adminGuide',
+          title: t('管理说明'),
+          description: t('后台操作说明文档'),
         },
       ],
     },
